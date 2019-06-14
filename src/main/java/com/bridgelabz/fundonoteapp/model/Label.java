@@ -3,8 +3,11 @@ package com.bridgelabz.fundonoteapp.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "label")
+
 public class Label {
 	@Id
     @GeneratedValue
